@@ -21,13 +21,13 @@ public class ExceptionMethods {
 		System.out.println("\n");
 		String fullString = "";
 
-		for (int i = newArr.length + 1; i > 0 i++) {
+		for (int i = newArr.length-1; i >= 0; i--) {
 			fullString += newArr[i];
-			System.out.println(fullString);
 		}
-
+		
 		System.out.println(fullString);
-
+		
+		System.out.println(newArr);
 		return fullString;
 	}
 }
